@@ -1,0 +1,91 @@
+:root {
+  --btn-color-primary: red;
+  --text-size: 15px;
+}
+
+* {
+  text-decoration: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-style: italic;
+  background-color: bisque;
+  text-align: justify;
+}
+
+main {
+  padding: 0px 100px;
+  display: block;
+}
+
+#titre {
+  color: rgb(255, 0, 144);
+  font-size: 100px;
+  text-align: center;
+  border: 2px solid;
+  border-radius: 80px;
+  background: white;
+}
+.h2 p {
+  width: 311px;
+  line-height: 1;
+}
+.list {
+  font-style: oblique;
+  height: 50px;
+}
+
+.list li a:hover {
+  color: #00ff59;
+}
+.box p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+#img {
+  border-radius: 50%;
+  position: absolute;
+  top: 340px;
+  right: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+.box {
+  border-color: blueviolet;
+}
+
+.contact-form input {
+  font-size: var(--text-size);
+  font-weight: bold;
+}
+.contact-form label {
+  display: inline-block;
+  width: 67px;
+  margin: 10px;
+}
+.list2 {
+  list-style-type: none;
+}
+
+h2 {
+  color: rgb(19, 20, 19);
+  font-family: roboto;
+  font-size: 35px;
+  padding: 20px 0px;
+}
+
+.btn-submit {
+  background-color: var(--btn-color-primary);
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 20px;
+}
